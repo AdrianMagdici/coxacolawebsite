@@ -63,14 +63,14 @@
 }
 
 #navbar-line {
-    height: 7px;
-    background: #eaeaea;
-    
+    height: 3px;
+    background: #FFFFFF;
+
 }
 
 #navbar-line:hover {
-    height: 5px;
-    background: #FFFFFF;
+    height: 3px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 40.1%, #FFFFFF 60.73%, rgba(255, 255, 255, 0) 100%);
     box-shadow: 0px 0px 12px 0px #FFFFFF;
     transition:all ease 0.3s;
 }
