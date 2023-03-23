@@ -65,11 +65,17 @@
 #navbar-line {
     height: 3px;
     background: #FFFFFF;
+    border: none;
+    margin: 0px;
+    padding: 0px;
 
 }
 
 #navbar-line:hover {
     height: 3px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 40.1%, #FFFFFF 60.73%, rgba(255, 255, 255, 0) 100%);
     box-shadow: 0px 0px 12px 0px #FFFFFF;
     transition:all ease 0.3s;
