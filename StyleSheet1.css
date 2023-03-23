@@ -63,7 +63,7 @@
 }
 
 #navbar-line {
-    height: 3px;
+    height: 2px;
     background: #FFFFFF;
     border: none;
     margin: 0px;
@@ -72,7 +72,7 @@
 }
 
 #navbar-line:hover {
-    height: 3px;
+    height: 2px;
     border: none;
     margin: 0px;
     padding: 0px;
