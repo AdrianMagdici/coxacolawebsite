@@ -63,6 +63,10 @@
 }
 
 #navbar-line {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    right: 0px;
     height: 2px;
     background: #FFFFFF;
     border: none;
