@@ -77,6 +77,7 @@
 
 #navbar-line:hover {
     box-shadow: 0px 0px 12px 0px #FFFFFF;
+    cursor: pointer;
     transition:all ease 0.3s;
 }
 
