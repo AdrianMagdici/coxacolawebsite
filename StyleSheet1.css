@@ -62,6 +62,19 @@
     width: auto;
 }
 
+#navbar-line {
+    height: 7px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #FFFFFF 30.52%, #FFFFFF 61.77%, rgba(0, 0, 0, 0) 100%);
+}
+
+#navbar-line:hover {
+    height: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px 0px #FFFFFF;
+    transition:all ease 0.3s;
+}
+
 #change-mode-button {
     position:fixed;
     top: 8px;
