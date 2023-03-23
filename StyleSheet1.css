@@ -63,15 +63,15 @@
 }
 
 #change-mode-button {
-    position:absolute;
-    top: 0px;
+    position:fixed;
+    top: 8px;
     right: 100px;
 }
 
 #language-switcher {
-    position:absolute;
-    top: 6px;
-    right: 6px;
+    position:fixed;
+    top: 8px;
+    right: 8px;
 }
 
 select {
