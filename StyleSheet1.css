@@ -69,6 +69,7 @@
     height: 24px;
     width: 48px;
     border-radius: 12px;
+    border: none;
 }
 
 #language-switcher {
