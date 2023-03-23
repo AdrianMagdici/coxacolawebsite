@@ -66,6 +66,9 @@
     position:fixed;
     top: 8px;
     right: 100px;
+    height: 24px;
+    width: 48px;
+    border-radius: 12px;
 }
 
 #language-switcher {
