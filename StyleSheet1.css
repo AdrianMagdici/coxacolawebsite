@@ -14,7 +14,6 @@
 
 #ul-navbar {
     background: #1e1e1e;
-    opacity: 0;
     list-style-type: none;
     position: fixed;
     top: 0;
@@ -69,29 +68,7 @@
 }
 
 #language-switcher {
-    background: #ad3838;
     position:absolute;
     top: 500px;
     left: 300px;
-}
-
-#temp {
-    background: #ad3838;
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    height: 38px;
-    width: 50px;
-}
-
-#country0 {
-    background-image: url("country.png");
-    background-repeat: no-repeat;
-    background-size: 100% 500%;
-}
-
-#country {
-    position: absolute;
-    top: 300px;
-    left: 500px;
 }
