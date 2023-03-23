@@ -30,6 +30,7 @@
     text-align: center;
     border-bottom: solid 0px;
     border-color: #591da9;
+    cursor: pointer;
     transition: all ease-in 0.15s;
 }
 #ul-navbar li:hover {
@@ -64,7 +65,7 @@
 
 #navbar-line {
     position: fixed;
-    top: 80px;
+    top: 70px;
     left: 0px;
     right: 0px;
     height: 2.5px;
