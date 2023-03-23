@@ -82,3 +82,6 @@ select {
 option {
     background: #4d8ccb;
 }
+option:hover {
+    background: #591da9;
+}
