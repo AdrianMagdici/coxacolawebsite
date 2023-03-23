@@ -61,6 +61,13 @@
     height: 60px;
     width: auto;
 }
+
+#navbar-line {
+    height: 7px;
+    background: #eaeaea;
+    
+}
+
 #navbar-line:hover {
     height: 5px;
     background: #FFFFFF;
