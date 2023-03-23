@@ -70,8 +70,8 @@
 
 #language-switcher {
     position:absolute;
-    top: 0px;
-    right: 50px;
+    top: 6px;
+    right: 6px;
 }
 
 select {
