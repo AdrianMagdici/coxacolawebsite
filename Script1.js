@@ -7,7 +7,7 @@ let items = [4];
 document.getElementById("change-mode-button").onclick = function() {
     if(isDarkMode == false) {
         document.getElementById("bg").className = "dark-mode-bg";
-        document.getElementById("ul-navbar").style.background = "#1e1e1e";
+        document.getElementById("ul-navbar").style.background = "linear-gradient(to right,#051960,#591da9);";
         items = document.querySelectorAll(".dark-color");
         for(x=0;x<items.length;x++) {
             items[x].className = "light-color";
@@ -17,7 +17,7 @@ document.getElementById("change-mode-button").onclick = function() {
     }
     else {
         document.getElementById("bg").className = "light-mode-bg";
-        document.getElementById("ul-navbar").style.background = "#eaeaea";
+        document.getElementById("ul-navbar").style.background = "linear-gradient(to right,#da98ed,#99b9d8);";
         items = document.querySelectorAll(".light-color");
         for(let x=0; x<items.length; x++) {
             items[x].className = "dark-color";
