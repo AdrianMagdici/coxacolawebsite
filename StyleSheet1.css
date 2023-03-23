@@ -74,9 +74,11 @@
 }
 
 select {
-    background: #679ed5;
-    
+    background: none;
+    border: solid 5px;
+    border-color: #99b9d8;
 }
+
 option {
-    background: #1b4e81;
+    background: #4d8ccb;
 }
