@@ -64,13 +64,14 @@
 
 #change-mode-button {
     position:absolute;
-    top: 500px;
+    top: 0px;
+    right: 100px;
 }
 
 #language-switcher {
     position:absolute;
-    top: 500px;
-    left: 300px;
+    top: 0px;
+    right: 50px;
 }
 
 select {
@@ -81,7 +82,4 @@ select {
 
 option {
     background: #4d8ccb;
-}
-option:hover {
-    background: #591da9;
 }
