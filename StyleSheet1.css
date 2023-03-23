@@ -63,6 +63,8 @@
 }
 
 #navbar-line {
+    position: fixed;
+    top: 80px;
     height: 7px;
     border-radius: 4px;
     background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #FFFFFF 30.52%, #FFFFFF 61.77%, rgba(0, 0, 0, 0) 100%);
