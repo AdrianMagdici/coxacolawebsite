@@ -5,8 +5,5 @@ body {
 
 .navbar {
     display: flex;
-}
-
-.corner-logo {
-
+    flex-direction: row;
 }
