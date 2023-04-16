@@ -1,8 +1,12 @@
 body {
     background-color: blueviolet;
+    border: none;
 }
 
 .navbar {
     display: flex;
+}
+
+.corner-logo {
 
 }
