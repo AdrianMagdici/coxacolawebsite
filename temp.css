@@ -11,10 +11,13 @@
 .navbar li {
     display: inline-block;
     text-decoration: none;
+    padding: 12px 18px;
 }
 .navbar a {
     text-decoration: none;
     font-family: "Oxanium", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     color: #fff;
 }
 .navbar a:active {
@@ -25,4 +28,11 @@ hr {
     border: 0px;
     background-color: crimson;
     height: 2.5px;
+}
+
+.h1-text-center-white {
+    font-family: "Oxanium", sans-serif;
+    font-size: 48px;
+    text-align: center; 
+    color: #fff;
 }
