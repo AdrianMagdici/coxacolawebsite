@@ -65,8 +65,8 @@ body {
 hr {
     margin: 0px;
     border: 0px;
-    background-color: crimson;
-    height: 2.5px;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
 }
 
 .h1-text-center-white {
