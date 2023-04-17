@@ -101,6 +101,7 @@ hr {
     border: 0px;
     background-color: rgb(255, 255, 255);
     height: 2px;
+    width: 100%-8px;
 }
 /*Select Dropdown*/
 .select-dropdown {
