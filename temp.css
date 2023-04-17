@@ -109,7 +109,7 @@ hr {
     font-size: 22px;
     text-align: center; 
     color: #fff;
-    background-color: none;
+    background: none;
 }
 .select-dropdown option {
     font-family: "Oxanium", sans-serif;
