@@ -32,7 +32,9 @@ hr {
 
 .h1-text-center-white {
     font-family: "Oxanium", sans-serif;
-    font-size: 48px;
+    font-size: 92px;
     text-align: center; 
     color: #fff;
+    margin: 0px;
+
 }
