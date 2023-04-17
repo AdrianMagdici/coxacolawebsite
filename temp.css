@@ -13,6 +13,8 @@ body {
     align-items: center;
     margin: 0px;
     border: none;
+    position: sticky;
+    top: 0px;
 }
 .navbar li {
     display: inline-block;
