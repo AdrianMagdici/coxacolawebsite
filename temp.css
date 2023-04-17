@@ -6,13 +6,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 2em;
+    width: 8px;
 }
 ::-webkit-scrollbar-track {
     background: #051960;
 }
 ::-webkit-scrollbar-thumb {
-    background: #591da9;
+    background: #f27474;
 }
 
 .navbar {
