@@ -34,7 +34,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #008aff, #00ffe7);
-    filter: blur(60px);
+    filter: blur(10px);
 }
 
 #ProgressBar::before {
@@ -45,7 +45,7 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, #008aff, #00ffe7);
-    filter: blur(120px);
+    filter: blur(30px);
 }
 @keyframes scrollbarAnimation{
     0%,100% {
