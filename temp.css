@@ -11,6 +11,10 @@
 .navbar li {
     display: inline-block;
     text-decoration: none;
+    color: #fff;
+}
+.navbar li:active {
+    color: #ddd;
 }
 .navbar a {
     text-decoration: none;
