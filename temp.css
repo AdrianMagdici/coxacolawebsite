@@ -16,6 +16,7 @@ body {
     width: 8px;
     height: 100%;
     background: rgba(255,255,255,0.15);
+    z-index: 99;
 }
 #ProgressBar {
     position: fixed;
@@ -25,6 +26,7 @@ body {
     height: 100%;
     background: linear-gradient(to top, #00d0ff, #00ff99);
     animation: scrollbarAnimation 4s linear infinite;
+    z-index: 100;
 }
 /*scrollbar glowing effect*/
 #ProgressBar::before {
