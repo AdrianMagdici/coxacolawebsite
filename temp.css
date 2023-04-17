@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&display=swap');
+
 .navbar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 0px;
     border: none;
 }
