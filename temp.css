@@ -76,8 +76,8 @@ body {
 }
 .navbar li:hover {
     background-color: rgba(255,255,255,0.05);
-    border-color: #00d0ff;
     border-bottom: solid 4px;
+    border-color: #00d0ff;
     padding-bottom: 11px;
     transition: all ease-out 0.1s;
 }
