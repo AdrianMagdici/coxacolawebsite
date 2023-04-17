@@ -13,6 +13,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background: #f27474;
+    box-shadow: -12px 0px 12px #FF0000;
 }
 
 .navbar {
