@@ -26,14 +26,36 @@ body {
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: scrollbarAnimation 5s linear infinite;
 }
+#ProgressBar::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(60px);
+}
+
+#ProgressBar::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(120px);
+}
 @keyframes scrollbarAnimation{
-    0% {
+    0%,100% {
         filter: hue-rotate(0deg);
     }
     50% {
         filter: hue-rotate(360deg);
     }
 }
+
 
 .navbar {
     background: linear-gradient(to right,#03103f,#291049);
