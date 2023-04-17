@@ -79,7 +79,8 @@ body {
     border-bottom: solid 4px;
     border-color: #00d0ff;
     padding-bottom: 11px;
-    transition: all ease-out 0.1s;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
 }
 .navbar a {
     text-decoration: none;
