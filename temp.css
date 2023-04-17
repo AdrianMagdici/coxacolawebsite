@@ -6,6 +6,7 @@
 }
 
 .corner-logo {
-    border: none;
-    margin: 0px;
+    margin: 0px; 
+    border: none; 
+    padding: 0px;
 }
