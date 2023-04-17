@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&display=swap');
 
 .navbar {
+    background: linear-gradient(to right,#051960,#591da9);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
