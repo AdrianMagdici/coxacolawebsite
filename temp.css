@@ -59,7 +59,7 @@ body {
 
 /*navigation bar*/
 .navbar {
-    background: linear-gradient(to right,#03103f,#291049);
+    background: linear-gradient(to right,#050c28,#291049);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
