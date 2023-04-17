@@ -23,8 +23,8 @@ body {
     right: 0px;
     width: 8px;
     height: 100%;
-    background: linear-gradient(to top, #008aff, #00ffe7);
-    animation: scrollbarAnimation 3s linear infinite;
+    background: linear-gradient(to top, #00d0ff, #00ff99);
+    animation: scrollbarAnimation 4s linear infinite;
 }
 #ProgressBar::before {
     content: '';
@@ -33,7 +33,7 @@ body {
     left: 0px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #008aff, #00ffe7);
+    background: linear-gradient(to top, #00d0ff, #00ff99);
     filter: blur(10px);
 }
 #ProgressBar::after {
@@ -43,7 +43,7 @@ body {
     left: 0px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #008aff, #00ffe7);
+    background: linear-gradient(to top, #00d0ff, #00ff99);
     filter: blur(20px);
 }
 @keyframes scrollbarAnimation{
