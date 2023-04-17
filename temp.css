@@ -4,11 +4,11 @@ body {
     background: linear-gradient(to right,#03103f,#291049);
     margin: 0px;
 }
-
+/*remove standard scrollbar*/
 ::-webkit-scrollbar {
     width: 0px;
 }
-
+/*add custom scrollbar*/
 #ScrollPath {
     position: fixed;
     top: 0px;
@@ -26,6 +26,7 @@ body {
     background: linear-gradient(to top, #00d0ff, #00ff99);
     animation: scrollbarAnimation 4s linear infinite;
 }
+/*scrollbar glowing effect*/
 #ProgressBar::before {
     content: '';
     position: absolute;
@@ -46,6 +47,7 @@ body {
     background: linear-gradient(to top, #00d0ff, #00ff99);
     filter: blur(20px);
 }
+/*scrollbar color animation*/
 @keyframes scrollbarAnimation{
     0%,100% {
         filter: hue-rotate(0deg);
@@ -55,7 +57,7 @@ body {
     }
 }
 
-
+/*navigation bar*/
 .navbar {
     background: linear-gradient(to right,#03103f,#291049);
     display: flex;

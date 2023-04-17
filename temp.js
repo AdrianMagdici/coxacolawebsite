@@ -1,3 +1,4 @@
+//calculating scroll length
 let progressBar = document.getElementById("ProgressBar");
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function() {
