@@ -13,6 +13,7 @@ body {
     align-items: center;
     margin: 0px;
     border: none;
+    position: fixed;
 }
 .navbar li {
     display: inline-block;
