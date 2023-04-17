@@ -75,10 +75,10 @@ body {
     padding: 15px 10px;
 }
 .navbar li:hover {
-    background-color: rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0.05);
     border-bottom: #00d0ff;
-    border: 2px;
-    padding-bottom: 13px;
+    border: 4px;
+    padding-bottom: 11px;
     transition: all ease-out 0.1s;
 }
 .navbar a {
