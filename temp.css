@@ -109,3 +109,17 @@ hr {
     margin: 0px;
     transition: all 0.3s ease 1s;
 }
+
+.h1-text-center-hue-change{
+    color: #00d0ff;
+    animation: textHueChangeAnimation 4s linear infinite;
+}
+
+@keyframes textHueChangeAnimation{
+    0%,100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(120deg);
+    }
+}
