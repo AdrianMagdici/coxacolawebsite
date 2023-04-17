@@ -111,7 +111,7 @@ hr {
     text-align: center; 
     color: #fff;
     background: none;
-    border-radius: 50%;
+    border-radius: 12px;
 }
 .select-dropdown option {
     font-family: "Oxanium", sans-serif;
