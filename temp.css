@@ -74,6 +74,13 @@ body {
     text-decoration: none;
     padding: 15px 10px;
 }
+.navbar li:hover {
+    background-color: rgba(255,255,255,0.15);
+    border-bottom: #00d0ff;
+    border: 2px;
+    padding-bottom: 13px;
+    transition: all ease-out 0.1s;
+}
 .navbar a {
     text-decoration: none;
     font-family: "Oxanium", sans-serif;
