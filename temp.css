@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&display=swap');
 
+body {
+    background: linear-gradient(to right,#051960,#591da9);
+    margin: 0px;
+}
+
 .navbar {
     background: linear-gradient(to right,#051960,#591da9);
     display: flex;
