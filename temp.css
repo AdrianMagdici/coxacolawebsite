@@ -36,7 +36,6 @@ body {
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
 }
-
 #ProgressBar::after {
     content: '';
     position: absolute;
@@ -52,7 +51,7 @@ body {
         filter: hue-rotate(0deg);
     }
     50% {
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(90deg);
     }
 }
 
