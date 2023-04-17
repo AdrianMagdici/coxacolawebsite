@@ -5,6 +5,16 @@ body {
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 2em;
+}
+::-webkit-scrollbar-track {
+    background: #051960;
+}
+::-webkit-scrollbar-thumb {
+    background: #591da9;
+}
+
 .navbar {
     background: linear-gradient(to right,#051960,#591da9);
     display: flex;
