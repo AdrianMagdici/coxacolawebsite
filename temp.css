@@ -26,7 +26,7 @@ body {
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: scrollbarAnimation 5s linear infinite;
 }
-/*#ProgressBar::before {
+#ProgressBar::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -35,9 +35,9 @@ body {
     height: 100%;
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
-}*/
+}
 
-#ProgressBar::before {
+#ProgressBar::after {
     content: '';
     position: absolute;
     top: 0px;
