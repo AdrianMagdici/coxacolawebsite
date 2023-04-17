@@ -106,16 +106,17 @@ hr {
 /*Select Dropdown*/
 .select-dropdown {
     font-family: "Oxanium", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
+    font-weight: 100;
+    font-size: 20px;
     text-align: center; 
     color: #fff;
     background: none;
+    border-radius: 50%;
 }
 .select-dropdown option {
     font-family: "Oxanium", sans-serif;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center; 
     color: #fff;
     background: #1e1e1e;
