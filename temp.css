@@ -43,5 +43,5 @@ hr {
     text-align: center; 
     color: #fff;
     margin: 0px;
-
+    transition: all 0.3s ease 1s;
 }
