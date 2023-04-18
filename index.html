@@ -1,37 +1,51 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coxa-Cola Official Website</title>
     <link rel="icon" href="favicon-32x32.png">
-    <link rel="stylesheet" href="StyleSheet1.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-
-<body id="bg" class="dark-mode-bg">
-    <!--beginning of navigation bar-->
-    <div>
-        <ul id="ul-navbar" class="dark-mode-bg">
-            <li><a class="light-color" href="">Home</a></li>
-            <li><a class="light-color" href="">Products</a></li>
-            <li><a class="light-color" href="">About Us</a></li>
-            <li><a class="light-color" href="">Contact</a></li>
-        </ul>
-        <hr id="navbar-line">
-        <div>
-            <img src="NeonCoxaCola.png" alt="image of logo" id="logo-img">
-            <img src="logotext.png" alt="text" id="logo-text">
+<body>
+    <!--Horizontal navigation bar-->
+    <header class="navbar">
+        <div style="height: 54px; width: 156px; padding-left: 3px;">
+            <img src="NeonCoxaCola.png" alt="image of logo" style="width: 54px; position: relative;">
+            <img src="logotext.png" alt="text" style="height: 54px; position: relative;">
         </div>
-        <button id="change-mode-button"></button>
-        <select id="language-switcher" name="English">
-            <option value="EN">English</option>
-            <option value="RO">Rom&#226n&#259</option>
-            <option value="FR">Fran&#231ais</option>
-            <option value="DE">Deutsch</option>
-        </select>
-    </div>
-    <!--end of navigation bar-->
-
-    <script src="Script1.js"></script>
+        <div style="height: 54px;">
+            <ul style="padding-left: 0px; vertical-align: middle; margin: 0px;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div style="width: 190px; height: 54px; display: flex; flex-direction: row; align-items: center; justify-content: flex-start;">
+            <img src="Other_files/light_mode.png" alt="light mode icon" height="32px">
+            <div style="width: 16px; height: 54px;"></div>
+            <select class="select-dropdown" name="English">
+                <option value="EN">English</option>
+                <option value="FR">Fran&#231ais</option>
+                <option value="DE">Deutsch</option>
+                <option value="RO">Rom&#226n&#259</option>
+                <option value="HU">Magyar</option>
+            </select>
+        </div>
+    </header>
+    <hr style="position: sticky; top: 54px;">
+    <!--Custom Scrollbar-->
+    <div id="ScrollPath"></div>
+    <div id="ProgressBar"></div>
+    <!--Content-->
+    <br><br><br><br><br><br><br><br><br>
+    <h1 class="h1-text-center-white">Welcome to the</h1>
+    <h1 class="h1-text-center-hue-change">Coxa-Cola Empire!</h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p>hei</p>
+    <script src="index.js"></script>
 </body>
 </html>
