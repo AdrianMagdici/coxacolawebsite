@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600&display=swap');
 
+html {
+    scrollbar-width: none;
+}
+
 body {
     background: linear-gradient(to right,#050c28,#291049);
     margin: 0px;
